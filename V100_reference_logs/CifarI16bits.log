@@ -1,0 +1,298 @@
+2022-03-07 21:44:14,147 config: Namespace(K=256, M=2, T=0.25, alpha=10, batch_size=128, checkpoint_root='./checkpoints/CifarI16bits', dataset='CIFAR10', device='cuda:0', download_cifar10=False, epoch_num=50, eval_interval=1, feat_dim=32, final_lr=1e-05, hp_beta=0.001, hp_gamma=0.5, hp_lambda=0.05, is_asym_dist=True, lr=0.01, lr_scaling=0.001, mode='debias', momentum=0.9, monitor_counter=10, notes='CifarI16bits', num_workers=20, optimizer='SGD', pos_prior=0.1, protocal='I', queue_begin_epoch=3, seed=2021, start_lr=1e-05, topK=1000, trainable_layer_num=2, use_scheduler=True, use_writer=True, vgg_model_path='vgg16.pth', warmup_epoch_num=1).
+2022-03-07 21:44:14,148 prepare CIFAR10 datatset.
+2022-03-07 21:44:15,908 setup model.
+2022-03-07 22:00:54,684 config: Namespace(K=256, M=2, T=0.25, alpha=10, batch_size=128, checkpoint_root='./checkpoints/CifarI16bits', dataset='CIFAR10', device='cuda:0', download_cifar10=False, epoch_num=50, eval_interval=1, feat_dim=32, final_lr=1e-05, hp_beta=0.001, hp_gamma=0.5, hp_lambda=0.05, is_asym_dist=True, lr=0.01, lr_scaling=0.001, mode='debias', momentum=0.9, monitor_counter=10, notes='CifarI16bits', num_workers=20, optimizer='SGD', pos_prior=0.1, protocal='I', queue_begin_epoch=3, seed=2021, start_lr=1e-05, topK=1000, trainable_layer_num=2, use_scheduler=True, use_writer=True, vgg_model_path='vgg16.pth', warmup_epoch_num=1).
+2022-03-07 22:00:54,707 prepare CIFAR10 datatset.
+2022-03-07 22:00:56,541 setup model.
+2022-03-07 22:01:03,235 define loss function.
+2022-03-07 22:01:03,236 setup SGD optimizer.
+2022-03-07 22:01:03,237 prepare monitor and evaluator.
+2022-03-07 22:01:03,238 begin to train model.
+2022-03-07 22:01:03,239 register queue.
+2022-03-07 22:03:58,411 epoch 0: avg loss=2.048225, avg quantization error=0.018165.
+2022-03-07 22:03:58,411 begin to evaluate model.
+2022-03-07 22:05:12,884 compute mAP.
+2022-03-07 22:05:29,828 val mAP=0.565558.
+2022-03-07 22:05:29,829 save the best model, db_codes and db_targets.
+2022-03-07 22:05:32,345 finish saving.
+2022-03-07 22:08:26,789 epoch 1: avg loss=1.160888, avg quantization error=0.018223.
+2022-03-07 22:08:26,789 begin to evaluate model.
+2022-03-07 22:09:41,390 compute mAP.
+2022-03-07 22:09:58,385 val mAP=0.583833.
+2022-03-07 22:09:58,386 save the best model, db_codes and db_targets.
+2022-03-07 22:10:00,777 finish saving.
+2022-03-07 22:12:55,892 epoch 2: avg loss=0.970087, avg quantization error=0.018592.
+2022-03-07 22:12:55,893 begin to evaluate model.
+2022-03-07 22:14:10,909 compute mAP.
+2022-03-07 22:14:27,678 val mAP=0.584355.
+2022-03-07 22:14:27,678 save the best model, db_codes and db_targets.
+2022-03-07 22:14:30,015 finish saving.
+2022-03-07 22:17:24,728 epoch 3: avg loss=2.630767, avg quantization error=0.017751.
+2022-03-07 22:17:24,729 begin to evaluate model.
+2022-03-07 22:18:39,691 compute mAP.
+2022-03-07 22:18:56,173 val mAP=0.601195.
+2022-03-07 22:18:56,173 save the best model, db_codes and db_targets.
+2022-03-07 22:18:58,526 finish saving.
+2022-03-07 22:21:53,647 epoch 4: avg loss=2.501278, avg quantization error=0.017311.
+2022-03-07 22:21:53,647 begin to evaluate model.
+2022-03-07 22:23:08,226 compute mAP.
+2022-03-07 22:23:24,770 val mAP=0.616610.
+2022-03-07 22:23:24,771 save the best model, db_codes and db_targets.
+2022-03-07 22:23:27,099 finish saving.
+2022-03-07 22:26:20,973 epoch 5: avg loss=2.431279, avg quantization error=0.017137.
+2022-03-07 22:26:20,973 begin to evaluate model.
+2022-03-07 22:27:35,897 compute mAP.
+2022-03-07 22:27:52,518 val mAP=0.628486.
+2022-03-07 22:27:52,519 save the best model, db_codes and db_targets.
+2022-03-07 22:27:54,890 finish saving.
+2022-03-07 22:30:50,130 epoch 6: avg loss=2.362166, avg quantization error=0.017188.
+2022-03-07 22:30:50,133 begin to evaluate model.
+2022-03-07 22:32:04,552 compute mAP.
+2022-03-07 22:32:21,306 val mAP=0.630286.
+2022-03-07 22:32:21,307 save the best model, db_codes and db_targets.
+2022-03-07 22:32:23,727 finish saving.
+2022-03-07 22:35:19,354 epoch 7: avg loss=2.293088, avg quantization error=0.017306.
+2022-03-07 22:35:19,354 begin to evaluate model.
+2022-03-07 22:36:34,483 compute mAP.
+2022-03-07 22:36:51,008 val mAP=0.637742.
+2022-03-07 22:36:51,009 save the best model, db_codes and db_targets.
+2022-03-07 22:36:53,464 finish saving.
+2022-03-07 22:39:46,470 epoch 8: avg loss=2.244972, avg quantization error=0.017323.
+2022-03-07 22:39:46,470 begin to evaluate model.
+2022-03-07 22:41:02,137 compute mAP.
+2022-03-07 22:41:19,220 val mAP=0.638857.
+2022-03-07 22:41:19,220 save the best model, db_codes and db_targets.
+2022-03-07 22:41:21,601 finish saving.
+2022-03-07 22:44:17,015 epoch 9: avg loss=2.203297, avg quantization error=0.017432.
+2022-03-07 22:44:17,015 begin to evaluate model.
+2022-03-07 22:45:32,308 compute mAP.
+2022-03-07 22:45:48,811 val mAP=0.643771.
+2022-03-07 22:45:48,812 save the best model, db_codes and db_targets.
+2022-03-07 22:45:51,190 finish saving.
+2022-03-07 22:48:46,172 epoch 10: avg loss=2.163387, avg quantization error=0.017509.
+2022-03-07 22:48:46,173 begin to evaluate model.
+2022-03-07 22:50:01,509 compute mAP.
+2022-03-07 22:50:18,224 val mAP=0.653460.
+2022-03-07 22:50:18,224 save the best model, db_codes and db_targets.
+2022-03-07 22:50:20,625 finish saving.
+2022-03-07 22:53:14,789 epoch 11: avg loss=2.134666, avg quantization error=0.017609.
+2022-03-07 22:53:14,789 begin to evaluate model.
+2022-03-07 22:54:29,085 compute mAP.
+2022-03-07 22:54:46,291 val mAP=0.657693.
+2022-03-07 22:54:46,292 save the best model, db_codes and db_targets.
+2022-03-07 22:54:48,769 finish saving.
+2022-03-07 22:57:44,105 epoch 12: avg loss=2.098244, avg quantization error=0.017778.
+2022-03-07 22:57:44,106 begin to evaluate model.
+2022-03-07 22:58:58,747 compute mAP.
+2022-03-07 22:59:15,697 val mAP=0.659030.
+2022-03-07 22:59:15,698 save the best model, db_codes and db_targets.
+2022-03-07 22:59:18,033 finish saving.
+2022-03-07 23:02:13,805 epoch 13: avg loss=2.070999, avg quantization error=0.017793.
+2022-03-07 23:02:13,806 begin to evaluate model.
+2022-03-07 23:03:28,692 compute mAP.
+2022-03-07 23:03:45,660 val mAP=0.655833.
+2022-03-07 23:03:45,661 the monitor loses its patience to 9!.
+2022-03-07 23:06:42,392 epoch 14: avg loss=2.026063, avg quantization error=0.017933.
+2022-03-07 23:06:42,392 begin to evaluate model.
+2022-03-07 23:07:58,074 compute mAP.
+2022-03-07 23:08:14,892 val mAP=0.657434.
+2022-03-07 23:08:14,893 the monitor loses its patience to 8!.
+2022-03-07 23:11:08,669 epoch 15: avg loss=2.012573, avg quantization error=0.018031.
+2022-03-07 23:11:08,669 begin to evaluate model.
+2022-03-07 23:12:24,780 compute mAP.
+2022-03-07 23:12:41,789 val mAP=0.659250.
+2022-03-07 23:12:41,789 save the best model, db_codes and db_targets.
+2022-03-07 23:12:44,246 finish saving.
+2022-03-07 23:15:38,636 epoch 16: avg loss=1.975937, avg quantization error=0.018106.
+2022-03-07 23:15:38,636 begin to evaluate model.
+2022-03-07 23:16:53,865 compute mAP.
+2022-03-07 23:17:10,760 val mAP=0.662617.
+2022-03-07 23:17:10,761 save the best model, db_codes and db_targets.
+2022-03-07 23:17:13,140 finish saving.
+2022-03-07 23:20:08,135 epoch 17: avg loss=1.963590, avg quantization error=0.018088.
+2022-03-07 23:20:08,135 begin to evaluate model.
+2022-03-07 23:21:23,247 compute mAP.
+2022-03-07 23:21:39,730 val mAP=0.666362.
+2022-03-07 23:21:39,731 save the best model, db_codes and db_targets.
+2022-03-07 23:21:42,206 finish saving.
+2022-03-07 23:24:37,198 epoch 18: avg loss=1.940127, avg quantization error=0.018136.
+2022-03-07 23:24:37,198 begin to evaluate model.
+2022-03-07 23:25:53,244 compute mAP.
+2022-03-07 23:26:09,874 val mAP=0.670282.
+2022-03-07 23:26:09,875 save the best model, db_codes and db_targets.
+2022-03-07 23:26:12,285 finish saving.
+2022-03-07 23:29:07,183 epoch 19: avg loss=1.933744, avg quantization error=0.018196.
+2022-03-07 23:29:07,183 begin to evaluate model.
+2022-03-07 23:30:21,061 compute mAP.
+2022-03-07 23:30:38,265 val mAP=0.669076.
+2022-03-07 23:30:38,266 the monitor loses its patience to 9!.
+2022-03-07 23:33:33,548 epoch 20: avg loss=1.891214, avg quantization error=0.018214.
+2022-03-07 23:33:33,548 begin to evaluate model.
+2022-03-07 23:34:49,212 compute mAP.
+2022-03-07 23:35:05,748 val mAP=0.671408.
+2022-03-07 23:35:05,749 save the best model, db_codes and db_targets.
+2022-03-07 23:35:08,142 finish saving.
+2022-03-07 23:38:03,881 epoch 21: avg loss=1.884324, avg quantization error=0.018243.
+2022-03-07 23:38:03,882 begin to evaluate model.
+2022-03-07 23:39:19,588 compute mAP.
+2022-03-07 23:39:36,371 val mAP=0.666089.
+2022-03-07 23:39:36,372 the monitor loses its patience to 9!.
+2022-03-07 23:42:31,965 epoch 22: avg loss=1.862234, avg quantization error=0.018330.
+2022-03-07 23:42:31,965 begin to evaluate model.
+2022-03-07 23:43:47,347 compute mAP.
+2022-03-07 23:44:04,170 val mAP=0.668744.
+2022-03-07 23:44:04,170 the monitor loses its patience to 8!.
+2022-03-07 23:46:57,523 epoch 23: avg loss=1.846280, avg quantization error=0.018390.
+2022-03-07 23:46:57,524 begin to evaluate model.
+2022-03-07 23:48:13,067 compute mAP.
+2022-03-07 23:48:30,386 val mAP=0.673463.
+2022-03-07 23:48:30,386 save the best model, db_codes and db_targets.
+2022-03-07 23:48:32,707 finish saving.
+2022-03-07 23:51:26,988 epoch 24: avg loss=1.811619, avg quantization error=0.018413.
+2022-03-07 23:51:26,988 begin to evaluate model.
+2022-03-07 23:52:43,579 compute mAP.
+2022-03-07 23:53:00,211 val mAP=0.677295.
+2022-03-07 23:53:00,212 save the best model, db_codes and db_targets.
+2022-03-07 23:53:02,804 finish saving.
+2022-03-07 23:55:58,454 epoch 25: avg loss=1.803519, avg quantization error=0.018434.
+2022-03-07 23:55:58,455 begin to evaluate model.
+2022-03-07 23:57:12,358 compute mAP.
+2022-03-07 23:57:28,968 val mAP=0.676122.
+2022-03-07 23:57:28,969 the monitor loses its patience to 9!.
+2022-03-08 00:00:24,409 epoch 26: avg loss=1.785552, avg quantization error=0.018444.
+2022-03-08 00:00:24,409 begin to evaluate model.
+2022-03-08 00:01:40,211 compute mAP.
+2022-03-08 00:01:57,240 val mAP=0.674073.
+2022-03-08 00:01:57,240 the monitor loses its patience to 8!.
+2022-03-08 00:04:52,058 epoch 27: avg loss=1.756189, avg quantization error=0.018527.
+2022-03-08 00:04:52,058 begin to evaluate model.
+2022-03-08 00:06:06,267 compute mAP.
+2022-03-08 00:06:22,876 val mAP=0.674612.
+2022-03-08 00:06:22,877 the monitor loses its patience to 7!.
+2022-03-08 00:09:17,042 epoch 28: avg loss=1.742374, avg quantization error=0.018553.
+2022-03-08 00:09:17,042 begin to evaluate model.
+2022-03-08 00:10:32,483 compute mAP.
+2022-03-08 00:10:49,249 val mAP=0.677983.
+2022-03-08 00:10:49,250 save the best model, db_codes and db_targets.
+2022-03-08 00:10:51,807 finish saving.
+2022-03-08 00:13:47,132 epoch 29: avg loss=1.721920, avg quantization error=0.018627.
+2022-03-08 00:13:47,133 begin to evaluate model.
+2022-03-08 00:15:02,232 compute mAP.
+2022-03-08 00:15:19,416 val mAP=0.682088.
+2022-03-08 00:15:19,417 save the best model, db_codes and db_targets.
+2022-03-08 00:15:21,834 finish saving.
+2022-03-08 00:18:16,036 epoch 30: avg loss=1.702213, avg quantization error=0.018634.
+2022-03-08 00:18:16,037 begin to evaluate model.
+2022-03-08 00:19:31,904 compute mAP.
+2022-03-08 00:19:48,745 val mAP=0.680276.
+2022-03-08 00:19:48,745 the monitor loses its patience to 9!.
+2022-03-08 00:22:43,364 epoch 31: avg loss=1.704570, avg quantization error=0.018687.
+2022-03-08 00:22:43,364 begin to evaluate model.
+2022-03-08 00:23:59,003 compute mAP.
+2022-03-08 00:24:15,733 val mAP=0.683534.
+2022-03-08 00:24:15,735 save the best model, db_codes and db_targets.
+2022-03-08 00:24:18,049 finish saving.
+2022-03-08 00:27:13,246 epoch 32: avg loss=1.665153, avg quantization error=0.018707.
+2022-03-08 00:27:13,246 begin to evaluate model.
+2022-03-08 00:28:28,820 compute mAP.
+2022-03-08 00:28:45,610 val mAP=0.685082.
+2022-03-08 00:28:45,611 save the best model, db_codes and db_targets.
+2022-03-08 00:28:48,060 finish saving.
+2022-03-08 00:31:43,083 epoch 33: avg loss=1.650673, avg quantization error=0.018706.
+2022-03-08 00:31:43,084 begin to evaluate model.
+2022-03-08 00:32:58,044 compute mAP.
+2022-03-08 00:33:14,892 val mAP=0.684385.
+2022-03-08 00:33:14,893 the monitor loses its patience to 9!.
+2022-03-08 00:36:10,944 epoch 34: avg loss=1.635147, avg quantization error=0.018759.
+2022-03-08 00:36:10,945 begin to evaluate model.
+2022-03-08 00:37:25,069 compute mAP.
+2022-03-08 00:37:42,078 val mAP=0.686444.
+2022-03-08 00:37:42,078 save the best model, db_codes and db_targets.
+2022-03-08 00:37:56,054 finish saving.
+2022-03-08 00:40:50,854 epoch 35: avg loss=1.616418, avg quantization error=0.018767.
+2022-03-08 00:40:50,854 begin to evaluate model.
+2022-03-08 00:42:04,729 compute mAP.
+2022-03-08 00:42:21,617 val mAP=0.686259.
+2022-03-08 00:42:21,618 the monitor loses its patience to 9!.
+2022-03-08 00:45:17,521 epoch 36: avg loss=1.611637, avg quantization error=0.018765.
+2022-03-08 00:45:17,522 begin to evaluate model.
+2022-03-08 00:46:31,188 compute mAP.
+2022-03-08 00:46:47,847 val mAP=0.686064.
+2022-03-08 00:46:47,848 the monitor loses its patience to 8!.
+2022-03-08 00:49:41,517 epoch 37: avg loss=1.585960, avg quantization error=0.018823.
+2022-03-08 00:49:41,518 begin to evaluate model.
+2022-03-08 00:50:56,999 compute mAP.
+2022-03-08 00:51:13,735 val mAP=0.687994.
+2022-03-08 00:51:13,736 save the best model, db_codes and db_targets.
+2022-03-08 00:51:16,635 finish saving.
+2022-03-08 00:54:10,859 epoch 38: avg loss=1.572198, avg quantization error=0.018841.
+2022-03-08 00:54:10,859 begin to evaluate model.
+2022-03-08 00:55:25,875 compute mAP.
+2022-03-08 00:55:42,954 val mAP=0.687127.
+2022-03-08 00:55:42,954 the monitor loses its patience to 9!.
+2022-03-08 00:58:36,279 epoch 39: avg loss=1.559951, avg quantization error=0.018848.
+2022-03-08 00:58:36,280 begin to evaluate model.
+2022-03-08 00:59:50,818 compute mAP.
+2022-03-08 01:00:07,890 val mAP=0.686586.
+2022-03-08 01:00:07,891 the monitor loses its patience to 8!.
+2022-03-08 01:03:04,815 epoch 40: avg loss=1.549803, avg quantization error=0.018854.
+2022-03-08 01:03:04,815 begin to evaluate model.
+2022-03-08 01:04:20,481 compute mAP.
+2022-03-08 01:04:37,431 val mAP=0.688573.
+2022-03-08 01:04:37,432 save the best model, db_codes and db_targets.
+2022-03-08 01:04:39,839 finish saving.
+2022-03-08 01:07:35,641 epoch 41: avg loss=1.538370, avg quantization error=0.018851.
+2022-03-08 01:07:35,645 begin to evaluate model.
+2022-03-08 01:08:50,059 compute mAP.
+2022-03-08 01:09:07,027 val mAP=0.690129.
+2022-03-08 01:09:07,027 save the best model, db_codes and db_targets.
+2022-03-08 01:09:09,469 finish saving.
+2022-03-08 01:12:06,614 epoch 42: avg loss=1.534379, avg quantization error=0.018864.
+2022-03-08 01:12:06,614 begin to evaluate model.
+2022-03-08 01:13:22,221 compute mAP.
+2022-03-08 01:13:39,136 val mAP=0.689816.
+2022-03-08 01:13:39,137 the monitor loses its patience to 9!.
+2022-03-08 01:16:33,870 epoch 43: avg loss=1.523091, avg quantization error=0.018863.
+2022-03-08 01:16:33,871 begin to evaluate model.
+2022-03-08 01:17:48,421 compute mAP.
+2022-03-08 01:18:05,422 val mAP=0.688855.
+2022-03-08 01:18:05,423 the monitor loses its patience to 8!.
+2022-03-08 01:21:01,429 epoch 44: avg loss=1.529924, avg quantization error=0.018873.
+2022-03-08 01:21:01,430 begin to evaluate model.
+2022-03-08 01:22:17,563 compute mAP.
+2022-03-08 01:22:34,100 val mAP=0.689096.
+2022-03-08 01:22:34,100 the monitor loses its patience to 7!.
+2022-03-08 01:25:29,573 epoch 45: avg loss=1.502256, avg quantization error=0.018854.
+2022-03-08 01:25:29,573 begin to evaluate model.
+2022-03-08 01:26:45,219 compute mAP.
+2022-03-08 01:27:02,203 val mAP=0.689559.
+2022-03-08 01:27:02,204 the monitor loses its patience to 6!.
+2022-03-08 01:29:57,657 epoch 46: avg loss=1.506581, avg quantization error=0.018870.
+2022-03-08 01:29:57,668 begin to evaluate model.
+2022-03-08 01:31:13,395 compute mAP.
+2022-03-08 01:31:30,432 val mAP=0.689316.
+2022-03-08 01:31:30,433 the monitor loses its patience to 5!.
+2022-03-08 01:34:25,782 epoch 47: avg loss=1.503728, avg quantization error=0.018862.
+2022-03-08 01:34:25,783 begin to evaluate model.
+2022-03-08 01:35:42,228 compute mAP.
+2022-03-08 01:35:58,981 val mAP=0.689501.
+2022-03-08 01:35:58,982 the monitor loses its patience to 4!.
+2022-03-08 01:38:54,101 epoch 48: avg loss=1.499215, avg quantization error=0.018875.
+2022-03-08 01:38:54,101 begin to evaluate model.
+2022-03-08 01:40:09,213 compute mAP.
+2022-03-08 01:40:26,258 val mAP=0.689434.
+2022-03-08 01:40:26,259 the monitor loses its patience to 3!.
+2022-03-08 01:43:23,118 epoch 49: avg loss=1.506942, avg quantization error=0.018869.
+2022-03-08 01:43:23,118 begin to evaluate model.
+2022-03-08 01:44:37,154 compute mAP.
+2022-03-08 01:44:53,659 val mAP=0.689442.
+2022-03-08 01:44:53,660 the monitor loses its patience to 2!.
+2022-03-08 01:44:53,660 free the queue memory.
+2022-03-08 01:44:53,660 finish trainning at epoch 49.
+2022-03-08 01:44:53,678 finish training, now load the best model and codes.
+2022-03-08 01:44:54,876 begin to test model.
+2022-03-08 01:44:54,876 compute mAP.
+2022-03-08 01:45:11,454 test mAP=0.690129.
+2022-03-08 01:45:11,455 compute PR curve and P@top1000 curve.
+2022-03-08 01:45:45,755 finish testing.
+2022-03-08 01:45:45,756 finish all procedures.

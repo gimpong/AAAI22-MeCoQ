@@ -1,0 +1,1 @@
+This is the folder for saved model checkpoints, encoded database, and performance results (e.g., Precision@topN curve and Precision-Recall curve).

@@ -1,0 +1,1 @@
+This is the folder for generated logs and tensorboard files.
