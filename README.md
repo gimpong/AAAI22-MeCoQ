@@ -157,14 +157,6 @@ Unfortunately, we were not aware of this phenomenon during our paper submission 
 
 Here we report the results of running the scripts on three kinds of GPUs in the following table. We have also uploaded the logs and checkpoint information for reference, which can be downloaded from [Baidu Wangpan (Web Drive), password: **ncw0**](https://pan.baidu.com/s/16T8mlZM_XhYHzrZA22npGg).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -444,6 +436,7 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
 </tbody>
 </table>
+
 
 ## 4. References
 
