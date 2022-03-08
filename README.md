@@ -453,7 +453,7 @@ If you find this code useful or use the toolkit in your work, please consider ci
 
 ## 5. Acknowledgements
 
-Our code is based on the implementation of [DCL](https://github.com/chingyaoc/DCL), [Deep-Unsupervised-Image-Hashing](https://github.com/liyunqianggyn/Deep-Unsupervised-Image-Hashing) and [ CIBHash](https://github.com/qiuzx2/CIBHash).
+Our code is based on the implementation of [PyTorch SimCLR](https://github.com/sthalles/SimCLR), [MoCo](https://github.com/facebookresearch/moco), [DCL](https://github.com/chingyaoc/DCL), [Deep-Unsupervised-Image-Hashing](https://github.com/liyunqianggyn/Deep-Unsupervised-Image-Hashing) and [ CIBHash](https://github.com/qiuzx2/CIBHash).
 
 ## 6. Contact
 
