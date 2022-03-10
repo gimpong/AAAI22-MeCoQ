@@ -182,8 +182,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
     <td class="tg-0lax"><a href="scripts/run0001.sh">run0001.sh</a></td>
     <td class="tg-0lax" rowspan="6">Flickr25K</td>
     <td class="tg-0lax" rowspan="2">16</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">81.3137</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Flickr16bits.log">Flickr16bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Flickr16bits.log">Flickr16bits.log</a></td>
@@ -192,8 +192,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0002.sh">run0002.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">79.9250</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Flickr16bitsSymm.log">Flickr16bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Flickr16bitsSymm.log">Flickr16bitsSymm.log</a></td>
@@ -203,8 +203,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   <tr>
     <td class="tg-0lax"><a href="scripts/run0003.sh">run0003.sh</a></td>
     <td class="tg-0lax" rowspan="2">32</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">82.3116</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Flickr32bits.log">Flickr32bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Flickr32bits.log">Flickr32bits.log</a></td>
@@ -213,8 +213,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0004.sh">run0004.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">81.5173</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Flickr32bitsSymm.log">Flickr32bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Flickr32bitsSymm.log">Flickr32bitsSymm.log</a></td>
@@ -224,8 +224,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   <tr>
     <td class="tg-0lax"><a href="scripts/run0005.sh">run0005.sh</a></td>
     <td class="tg-0lax" rowspan="2">64</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">82.6785</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Flickr64bits.log">Flickr64bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Flickr64bits.log">Flickr64bits.log</a></td>
@@ -234,8 +234,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0006.sh">run0006.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">82.2351</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Flickr64bitsSymm.log">Flickr64bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Flickr64bitsSymm.log">Flickr64bitsSymm.log</a></td>
@@ -246,8 +246,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
     <td class="tg-0lax"><a href="scripts/run0007.sh">run0007.sh</a></td>
     <td class="tg-0lax" rowspan="6">CIFAR-10 (I)</td>
     <td class="tg-0lax" rowspan="2">16</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">68.8245</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarI16bits.log">CifarI16bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarI16bits.log">CifarI16bits.log</a></td>
@@ -256,8 +256,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0008.sh">run0008.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">65.9515</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarI16bitsSymm.log">CifarI16bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarI16bitsSymm.log">CifarI16bitsSymm.log</a></td>
@@ -267,8 +267,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   <tr>
     <td class="tg-0lax"><a href="scripts/run0009.sh">run0009.sh</a></td>
     <td class="tg-0lax" rowspan="2">32</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">70.2410</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarI32bits.log">CifarI32bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarI32bits.log">CifarI32bits.log</a></td>
@@ -277,8 +277,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0010.sh">run0010.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">69.1810</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarI32bitsSymm.log">CifarI32bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarI32bitsSymm.log">CifarI32bitsSymm.log</a></td>
@@ -288,8 +288,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   <tr>
     <td class="tg-0lax"><a href="scripts/run0011.sh">run0011.sh</a></td>
     <td class="tg-0lax" rowspan="2">64</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">70.2445</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarI64bits.log">CifarI64bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarI64bits.log">CifarI64bits.log</a></td>
@@ -298,8 +298,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0012.sh">run0012.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">69.4085</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarI64bitsSymm.log">CifarI64bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarI64bitsSymm.log">CifarI64bitsSymm.log</a></td>
@@ -310,8 +310,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
     <td class="tg-0lax"><a href="scripts/run0013.sh">run0013.sh</a></td>
     <td class="tg-0lax" rowspan="6">CIFAR-10 (II)</td>
     <td class="tg-0lax" rowspan="2">16</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">62.8279</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarII16bits.log">CifarII16bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarII16bits.log">CifarII16bits.log</a></td>
@@ -320,8 +320,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0014.sh">run0014.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">60.3927</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarII16bitsSymm.log">CifarII16bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarII16bitsSymm.log">CifarII16bitsSymm.log</a></td>
@@ -331,8 +331,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   <tr>
     <td class="tg-0lax"><a href="scripts/run0015.sh">run0015.sh</a></td>
     <td class="tg-0lax" rowspan="2">32</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">64.0929</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarII32bits.log">CifarII32bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarII32bits.log">CifarII32bits.log</a></td>
@@ -341,8 +341,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0016.sh">run0016.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">62.1983</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarII32bitsSymm.log">CifarII32bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarII32bitsSymm.log">CifarII32bitsSymm.log</a></td>
@@ -352,8 +352,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   <tr>
     <td class="tg-0lax"><a href="scripts/run0017.sh">run0017.sh</a></td>
     <td class="tg-0lax" rowspan="2">64</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">65.0706</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarII64bits.log">CifarII64bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarII64bits.log">CifarII64bits.log</a></td>
@@ -362,8 +362,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0018.sh">run0018.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">63.8469</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/CifarII64bitsSymm.log">CifarII64bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/CifarII64bitsSymm.log">CifarII64bitsSymm.log</a></td>
@@ -374,8 +374,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
     <td class="tg-0lax"><a href="scripts/run0019.sh">run0019.sh</a></td>
     <td class="tg-0lax" rowspan="6">NUS-WIDE</td>
     <td class="tg-0lax" rowspan="2">16</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">76.3282</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Nuswide16bits.log">Nuswide16bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Nuswide16bits.log">Nuswide16bits.log</a></td>
@@ -384,8 +384,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0020.sh">run0020.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">75.8496</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Nuswide16bitsSymm.log">Nuswide16bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Nuswide16bitsSymm.log">Nuswide16bitsSymm.log</a></td>
@@ -395,8 +395,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   <tr>
     <td class="tg-0lax"><a href="scripts/run0021.sh">run0021.sh</a></td>
     <td class="tg-0lax" rowspan="2">32</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">82.1629</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Nuswide32bits.log">Nuswide32bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Nuswide32bits.log">Nuswide32bits.log</a></td>
@@ -405,8 +405,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0022.sh">run0022.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">81.1774</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Nuswide32bitsSymm.log">Nuswide32bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Nuswide32bitsSymm.log">Nuswide32bitsSymm.log</a></td>
@@ -416,8 +416,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   <tr>
     <td class="tg-0lax"><a href="scripts/run0023.sh">run0023.sh</a></td>
     <td class="tg-0lax" rowspan="2">64</td>
-    <td class="tg-0lax">Symmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Asymmetric</td>
+    <td class="tg-0lax">83.0987</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Nuswide64bits.log">Nuswide64bits.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Nuswide64bits.log">Nuswide64bits.log</a></td>
@@ -426,8 +426,8 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
   <tr>
     <td class="tg-0lax"><a href="scripts/run0024.sh">run0024.sh</a></td>
-    <td class="tg-0lax">Asymmetric</td>
-    <td class="tg-0lax">TBD</td>
+    <td class="tg-0lax">Symmetric</td>
+    <td class="tg-0lax">82.0026</td>
     <td class="tg-0lax"><a href="1080Ti_reference_logs/Nuswide64bitsSymm.log">Nuswide64bitsSymm.log</a></td>
     <td class="tg-0lax">TBD</td>
     <td class="tg-0lax"><a href="2080Ti_reference_logs/Nuswide64bitsSymm.log">Nuswide64bitsSymm.log</a></td>
@@ -436,7 +436,6 @@ Here we report the results of running the scripts on three kinds of GPUs in the 
   </tr>
 </tbody>
 </table>
-
 
 ## 4. References
 
